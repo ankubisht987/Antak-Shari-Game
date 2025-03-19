@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antakshari Game 🎵</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎤 Antakshari Game</h1>
+    <div id="player-info">
+      <p><strong>Player:</strong> <span id="player-name">Loading...</span></p>
+      <p><strong>Score:</strong> <span id="player-score">0</span></p>
+      <p><strong>Time Played:</strong> <span id="time-played">0s</span></p>
+      <p><strong>Time Left:</strong> <span id="time-played">0s</span></p>
+
+    </div>
+
+    <div id="game-area">
+      <p id="previous-player"></p>
+      <p id="start-word">Loading word...</p>
+      <input type="text" id="user-word" placeholder="Enter your word..." />
+      <button onclick="submitWord()">Submit</button>
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
